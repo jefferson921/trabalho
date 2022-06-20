@@ -1,0 +1,31 @@
+int arr[n][m]*: an array of integers
+
+  Return()
+
+
+
+`3
+11 2 4
+4 5 6
+10 8 -12`
+
+**Sample Output**
+
+`15`
+
+
+
+primary diagonal = float(input("The primary diagonal:"))
+
+```
+11
+   5
+     -12
+```
+
+Sum across the primary diagonal: 11 + 5 - 12 = 4
+
+secondary diagonal = float(input("The secondary diagonal:"))
+
+
+Sum across the secondary diagonal: 4 + 5 + 10 = 19Difference: |4 - 19| = 15
